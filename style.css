@@ -1,0 +1,109 @@
+body{
+    background: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.attribution { 
+    width: 300px;
+    height: 62px;
+    border-radius: 7px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: small;
+    background-color: rgb(242, 247, 248); 
+    margin: 5px 10px 20px 50px;
+    display: block;
+}
+
+    #general{
+      color: black;
+      background: white;
+      border: 0.5px solid lightgrey;
+      width: 400px;
+      height: 600px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      margin: 40px 20px 50px 500px;
+      text-align: center;
+      border-radius: 15px;
+
+    }
+    .image{
+        width: 400px;
+        height: 200px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .annual{
+        float: left;
+        margin-top: 7px;
+
+    }
+    .plan{
+        float: right;
+        margin-right: 150px; 
+        margin-top: 7px;
+    }
+    .link{
+        float: right;
+        margin-left: 20px;
+        margin-top: -40px;
+    }
+    .order{
+        color: blue;
+    }
+
+    .order:hover{
+        color: rgb(122, 122, 241);
+        text-decoration: none;
+        text-decoration: none;
+    }
+       
+    p{
+        padding: 10px 0px 0px 0px;
+      font-weight: bold;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 1.7em;
+
+    }
+    .text{
+        margin-left: 20px;
+        width: 300px;
+        padding: 0px 50px 30px 30px;
+        text-align: center;
+        font-size: 1em;
+        color: grey;
+    }
+
+    .order{
+        float: right;
+        margin-right: 20px;
+    }
+    .button{
+        background: rgb(8, 8, 156);
+        outline: none;
+        border: none;
+        border-right: none;
+        border-left: none;
+        width: 300px;
+        height: 50px;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 20px; 
+        box-shadow: 0px 14px 14px rgb(198, 220, 223);
+    }
+    .button:hover{
+        background: rgb(122, 122, 241);
+        color: white;
+    }
+    .change{
+        color: grey;
+        font-weight: bold;
+        outline: none;
+        text-decoration: none;
+    }
+    .change:hover{
+        color: black;
+        font-weight: bold;
+        outline: none;
+        text-decoration: none;
+    }
