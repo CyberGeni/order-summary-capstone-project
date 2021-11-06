@@ -1,15 +1,21 @@
 body{
     background: url(images/pattern-background-desktop.svg);
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-size: contain;
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
 }
 .attribution { 
     width: 300px;
     height: 62px;
     border-radius: 7px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: small;
-    background-color: rgb(242, 247, 248); 
+    font-size: 16px;
+    background-color: hsl(225, 100%, 98%);
     margin: 5px 10px 20px 50px;
     display: block;
 }
@@ -21,7 +27,6 @@ body{
       width: 400px;
       height: 600px;
       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-      margin: 40px 20px 50px 500px;
       text-align: center;
       border-radius: 15px;
 
@@ -78,7 +83,7 @@ body{
         margin-right: 20px;
     }
     .button{
-        background: rgb(8, 8, 156);
+        background: hsl(245, 75%, 52%);
         outline: none;
         border: none;
         border-right: none;
@@ -89,13 +94,13 @@ body{
         border-radius: 5px;
         cursor: pointer;
         margin-top: 20px; 
-        box-shadow: 0px 14px 14px rgb(198, 220, 223);
+        box-shadow: 0 4px 20px 4px rgb(198 220 223);
     }
     .button:hover{
-        background: rgb(122, 122, 241);
+        background: hsl(224, 23%, 55%);
         color: white;
     }
-    .change{
+    .cancel{
         color: grey;
         font-weight: bold;
         outline: none;
@@ -106,4 +111,9 @@ body{
         font-weight: bold;
         outline: none;
         text-decoration: none;
+    }
+    @media screen and (max-width: 720px) {
+        body {
+            background-image: url(images/pattern-background-mobile.svg);
+        }
     }
