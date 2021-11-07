@@ -26,7 +26,7 @@ body{
     background-color: hsl(225, 100%, 98%);
     margin: 5px 10px 20px 50px;
     display: block;
-    padding: 15px;
+    padding: 10px;
 }
 
     #general{
@@ -99,9 +99,9 @@ body{
         width: 300px;
         height: 30px;
         color: white;
-        border-radius: 10px;
+        border-radius: 8px;
         cursor: pointer;
-        margin-top: 30px; 
+        margin-top: 50px; 
         box-shadow: 0 10px 20px 2px rgb(198 220 223);
     }
     .button:hover{
