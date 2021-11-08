@@ -20,11 +20,11 @@ body{
 }
 .attribution { 
     width: 300px;
-    height: 80px;
+    height: 70px;
     border-radius: 7px;
     font-size: 16px;
     background-color: hsl(225, 100%, 98%);
-    margin: 5px 10px 20px 50px;
+    margin: 5px 50px 20px 50px;
     display: block;
     padding: 10px;
 }
@@ -48,13 +48,16 @@ body{
     .annual{
         float: left;
         margin-top: 7px;
+		margin-left: -10px
 
     }
     .plan{
         float: right;
-        margin-right: 150px; 
-        margin-top: 7px;
+        margin-right: 130px;
+		line-height: 24px;
+		
     }
+.plan-price{color: grey; font-weight: 549; margin-left: -10px}
     .link{
         float: right;
         margin-left: 20px;
@@ -84,11 +87,12 @@ body{
         text-align: center;
         font-size: 16px;
         color: grey;
+		line-height: 25px
     }
 
     .order{
         float: right;
-        margin-right: 20px;
+        margin-right: 10px;
     }
     .button{
         background: hsl(245, 75%, 52%);
