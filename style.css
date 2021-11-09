@@ -20,11 +20,10 @@ body{
 }
 .attribution { 
     width: 300px;
-    height: 70px;
+    height: auto;
     border-radius: 7px;
     font-size: 16px;
-    background-color: hsl(225, 100%, 98%);
-    margin: 5px 50px 20px 50px;
+    margin: 20px auto;
     display: block;
     padding: 10px;
 }
@@ -33,30 +32,28 @@ body{
       color: black;
       background: white;
       border: 0.5px solid lightgrey;
-      width: 400px;
-      height: 600px;
+      width: 75%;
+      max-width: 380px;
+      height: auto;
       text-align: center;
       border-radius: 15px;
     }
 
     .image{
-        width: 400px;
-        height: 200px;
+        width: 100%;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
-    }
-    .annual{
-        float: left;
-        margin-top: 7px;
-		margin-left: -10px
-
     }
     .plan{
         float: right;
         margin-right: 130px;
 		line-height: 24px;
-		
     }
+.annual-section {
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 8px;
+    padding: 10px;
+}
 .plan-price{color: grey; font-weight: 549; margin-left: -10px}
     .link{
         float: right;
@@ -81,9 +78,9 @@ body{
       color: hsl(223, 47%, 23%);
     }
     .text{
-        margin-left: 20px;
-        width: 300px;
-        padding: 0px 50px 30px 30px;
+        width: 80%;
+        margin: auto;
+        padding-top: 8px;
         text-align: center;
         font-size: 16px;
         color: grey;
@@ -96,27 +93,30 @@ body{
     }
     .button{
         background: hsl(245, 75%, 52%);
-        outline: none;
         border: none;
-        border-right: none;
-        border-left: none;
-        width: 300px;
-        height: 30px;
+        width:100%;
+        padding: 15px;
+        margin: auto;
         color: white;
         border-radius: 8px;
         cursor: pointer;
-        margin-top: 50px; 
+        margin-top: 20px; 
         box-shadow: 0 10px 20px 2px rgb(198 220 223);
     }
     .button:hover{
         background: hsl(224, 23%, 55%);
         color: white;
     }
-    .cancel{
+    .cancel {
+        display: flex;
+        justify-content: center;
+        height: auto;
+        width: 100%;
         color: grey;
         font-weight: bold;
-        outline: none;
         text-decoration: none;
+        padding: 15px 0;
+        text-align: center;
     }
     .change:hover{
         color: black;
